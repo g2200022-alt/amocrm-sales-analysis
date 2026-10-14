@@ -41,7 +41,7 @@ import time
 import requests
 
 SUBDOMAIN = os.getenv("AMO_SUBDOMAIN")   # например, "citycar"
-TOKEN = ***"AMO_TOKEN")           # long-lived access token
+TOKEN = os.getenv"AMO_TOKEN")           # long-lived access token
 BASE = f"https://{SUBDOMAIN}.amocrm.ru/api/v4"
 HEADERS = {"Authorization": f"Bearer {TOKEN}"}
 
